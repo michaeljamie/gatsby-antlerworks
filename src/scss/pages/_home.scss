@@ -1,18 +1,42 @@
-.page-home {
-  background-image: url('../images/undraw_taking_notes_tjaf.svg');
+// .page-home {
+//   background-image: url('../images/treesbkgd.jpg');
+//   background-repeat: no-repeat;
+//   background-size: 115%;
+//   // background-position: 49px -40px;
+//   @include media-breakpoint-up(sm) {
+//     background-size: 90%;
+//     background-position: 159px -40px;
+//   }
+//   @include media-breakpoint-up(md) {
+//     background-size: 70%;
+//     background-position: 100% -50px;
+//   }
+//   @include media-breakpoint-up(lg) {
+//     background-size: 60%;
+//     background-position: 100% -70px;
+//   }
+// }
+
+.intro {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url('../images/treesbkgd.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
   background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
-  @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 159px -40px;
-  }
-  @include media-breakpoint-up(md) {
-    background-size: 70%;
-    background-position: 100% -50px;
-  }
-  @include media-breakpoint-up(lg) {
-    background-size: 60%;
-    background-position: 100% -70px;
+  background-attachment: fixed;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+  margin: 0;
+  position: initial;
+  text-align: center;
+
+  &__logo {
+    min-height: 20vh;
+    min-width: 40vw;
   }
 }

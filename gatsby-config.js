@@ -2,11 +2,11 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'The Antler Works',
+    description: 'A family owned business in beautiful Star Valley, Wyoming',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      phone: '307 886 3236',
+      email: 'antlerworks@silverstar.com',
     },
     menuLinks: [
       {
